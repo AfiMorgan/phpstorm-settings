@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7bee30a6-0e0d-4e1c-a4a7-b7330c84204e" name="CRM" url="https://pingcrm.app/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
