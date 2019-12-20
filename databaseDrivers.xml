@@ -75,6 +75,7 @@
       <option name="send-app-info" value="false" />
     </driver>
     <driver id="sqlite.xerial">
+      <url-template name="new" template="jdbc:sqlite:identifier.sqlite" />
       <artifact name="Xerial SQLiteJDBC" use="true" version="3.25.1" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
