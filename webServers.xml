@@ -4,6 +4,9 @@
       <webServer id="7bee30a6-0e0d-4e1c-a4a7-b7330c84204e" name="CRM" url="https://pingcrm.app/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="fd2b68ee-bb15-49bd-842b-06a2bed2820a" name="Joe Local" url="http://localhost/l">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
