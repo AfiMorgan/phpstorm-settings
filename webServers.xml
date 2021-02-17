@@ -2,10 +2,17 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="7bee30a6-0e0d-4e1c-a4a7-b7330c84204e" name="CRM" url="https://pingcrm.app/">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="fd2b68ee-bb15-49bd-842b-06a2bed2820a" name="Joe Local" url="http://localhost/l">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+      <webServer id="e2eacfb6-cc98-4c9d-a02f-b43864690b4e" name="MSMProductsLLC.com" url="https://msmproductsllc.com">
+        <fileTransfer rootFolder="/htdocs" accessType="SFTP" host="sftp.wp.com" port="22" sshConfigId="eab4c62a-736e-41b6-a518-f5bc30e15cde" sshConfig="msmproductsllc.wordpress.com@sftp.wp.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
       </webServer>
     </option>
   </component>

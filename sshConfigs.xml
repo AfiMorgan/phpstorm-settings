@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="sftp.wp.com" id="eab4c62a-736e-41b6-a518-f5bc30e15cde" port="22" nameFormat="DESCRIPTIVE" username="msmproductsllc.wordpress.com" />
+    </configs>
+  </component>
+</application>
